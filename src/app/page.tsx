@@ -1,3 +1,4 @@
+import Banner from "./components/banner/HomePageBanner";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import FirstAnimation from "./components/loadingUi/FirstAnimation";
@@ -8,7 +9,6 @@ import WhatWeDo from "./components/section/WhatWeDo";
 import WhyChoseUs from "./components/section/WhyChoseUs";
 import WorkSection from "./components/section/WorkSection";
 
-;
 
 function HomePage() {
 
@@ -18,6 +18,7 @@ function HomePage() {
       <FirstAnimation />
       <header className="w-full bgGradient controlLargeScreen ">
         <Header />
+        <Banner />
       </header>
       <main>
         <WhatWeDo />

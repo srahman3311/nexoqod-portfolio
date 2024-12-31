@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { ToggleProvider } from "./context/ToggleContex";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+</style>
+const inter = Inter({ subsets: ["latin"], display: "swap", weight: "400" });
 
 export const metadata: Metadata = {
   title: "Nexoqod-portfolio app",
@@ -28,7 +24,7 @@ export default function RootLayout({
       <ToggleProvider>
 
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={inter.className}
           cz-shortcut-listen="true"
           data-new-gr-c-s-check-loaded="14.1215.0"
           data-gr-ext-installed=""

@@ -1,6 +1,5 @@
-"use client"
 
-import Banner from "../banner/HomePageBanner"
+
 import ToggleBtn from "../button/ToggleBtn"
 import MenuItem from "../menubar/MenuItem"
 import ResponsiveMenu from "../menubar/responsiveMenu/ResponsiveMenu"
@@ -27,7 +26,6 @@ const Header = () => {
                     </menu>
                 </nav>
             </div>
-            <Banner />
         </div>
     )
 }
