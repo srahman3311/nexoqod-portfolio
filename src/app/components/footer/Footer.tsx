@@ -17,14 +17,14 @@ const Footer = () => {
                             width={200}
                             height={200}
                             alt="Profile"
-                            src={"/portfolio.png"}
+                            src={"/nexoqod_logo.png"}
                         />
                     </div>
                     <div className="w-full">
 
-                        <h2 className="text-neutral-50 text-[5.2vw] md:text-[6vw] lg:text-[4.5vw] first-letter:text-[#3D42FB] first-letter:font-bold inline-block">Let’s build your digital success together. </h2>
+                        <h2 className="text-neutral-50 text-[5.2vw] md:text-[6vw] lg:text-[4.5vw] first-letter:text-[#3D42FB] first-letter:font-bold inline-block">Lets build your digital success together. </h2>
                         <br />
-                        <small className="text-[2.5vw] md:text-[2vw] lg:text-[1.4vw] text-neutral-400 block w-full lg:w-4/6 mt-4">Reach out to discuss your project needs. I’m here to help with innovative web solutions tailored to your vision.</small>
+                        <small className="text-[2.5vw] md:text-[2vw] lg:text-[1.4vw] text-neutral-400 block w-full lg:w-4/6 mt-4">Reach out to discuss your project needs. We are here to help with innovative web solutions tailored to your vision.</small>
 
                     </div>
 
@@ -38,15 +38,13 @@ const Footer = () => {
                 </div>
 
                 <div className="flex gap-4 ml-0 lg:ml-[120px] translate-y-[0px] mt-[100px] md:mt-0 md:translate-y-[-50%]">
-                    <Button contact contactAddress="tel:+88017590018221" content="+8801759..." />
-                    <Button contact contactAddress="mailto:abdullahalmamun7021@gmail.com" content="abdullahalmamun..." />
+                    <Button contact contactAddress="tel:+88017590018221" content="+8801717062884" />
+                    <Button contact contactAddress="mailto:samsur.rahman3311@gmail.com" content="samsur.rahman3311@gmail.com" />
                 </div>
 
             </div>
-
             <div className="text-white px-8 flex gap-8  py-4 md:px-24 lg:px-[13.5rem] md:py-8">
                 <MenuIconSection />
-
             </div>
             <div className="verticalText absolute bottom-8 right-10 text-white">
                 Version &nbsp;: &nbsp; {2024}

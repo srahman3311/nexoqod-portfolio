@@ -5,38 +5,38 @@ import { ProjectDetailsType, ProjectType } from "../type/ProjectType"
 
 export const projectList: ProjectDetailsType = [
     {
-        pName: 'Blog App',
-        pImage: "/blogProject.jpg",
+        pName: 'Multi-tenant System',
+        pImage: "/bookitu/calendar.png",
         backgroundLayout: "#F0FFFF",
-        PCategory: "Deasign & Develope",
-        pLink: "https://blog-app-mamun.vercel.app/login"
+        PCategory: "Appointment Booking System",
+        pLink: "https://bookitu.com"
     },
     {
-        pName: 'Madrasah App',
-        pImage: "/madrashahProject.jpg",
+        pName: 'Hospital Management System',
+        pImage: "/hospital-management/admin_dashboard.png",
         backgroundLayout: "#F5F5DC",
-        PCategory: "Deasign & Develope",
-        pLink: "https://madrasah-app.vercel.app"
+        PCategory: "Custom Software Development",
+        pLink: "https://bookitu.com"
     },
     {
-        pName: 'Notes Ai App',
-        pImage: "/aiProject.jpg",
+        pName: 'ERP System',
+        pImage: "/atoz-binirman/expense.png",
         backgroundLayout: "#FFE4E1",
-        PCategory: "Deasign & Develope",
-        pLink: "https://notes-chatbot.vercel.app"
+        PCategory: "Custom Software Development",
+        pLink: "https://atozbinirman.com"
     },
     {
-        pName: 'Weather App',
-        pImage: "/weatherProject.jpg",
+        pName: 'Files Conversion System',
+        pImage: "/file-conversion-site/file_conversion.png",
         backgroundLayout: "#C6C6C6",
-        PCategory: "Deasign & Develope",
-        pLink: "https://weather-app-sand-xi.vercel.app"
+        PCategory: "Custom Software Development",
+        pLink: "https://bookitu.com"
     }, {
-        pName: 'Madrashah Admin',
-        pImage: "/madrashahAdmin.png",
+        pName: 'Social Media Apps',
+        pImage: "/identishare/identishare.png",
         backgroundLayout: "#F5DEB3",
-        PCategory: "Deasign & Develope",
-        pLink: "https://madrasah-app-admin.vercel.app/"
+        PCategory: "Social Media App Development",
+        pLink: "https://identishare.co"
     },
 ]
 

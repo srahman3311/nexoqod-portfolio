@@ -88,13 +88,13 @@ const Form = () => {
 
                 <Input heading="What's Your Email?"
                     name="userEmail" type="email"
-                    number={2} placeholder="Jhon@gmail.com"
+                    number={2} placeholder="John@gmail.com"
                     userValue={userInfo.userEmail}
                     onChange={(e) => handleChange(e)}
                 />
                 <Input heading="Project Details"
                     name="userMessage" textArea
-                    number={4} placeholder="Hello Mamun. Can you help me with..."
+                    number={4} placeholder="Hello Nexoqod. Can you help me with..."
                     userValue={userInfo.userMessage}
                     onChange={(e) => handleChange(e)} />
 

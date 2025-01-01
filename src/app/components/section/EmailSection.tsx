@@ -28,7 +28,7 @@ const EmailSection = () => {
 
                     <Input heading="Please Enter your Email."
                         name="userEmail" type="email"
-                        number={1} placeholder="Jhon@gmail.com"
+                        number={1} placeholder="John@gmail.com"
                         userValue={emailInfo}
                         onChange={(e) => handleChange(e)}
                     />

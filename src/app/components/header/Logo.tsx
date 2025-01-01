@@ -30,8 +30,7 @@ const Logo = () => {
                         absolute transition-all duration-300 delay-75 
                         group-hover:left-[-68px] top-[3px] left-0" >
 
-                    Code by Mamun hossain
-
+                    NEXOQOD IT
                 </Link>
             </div>
         </div>

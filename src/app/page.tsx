@@ -27,7 +27,6 @@ function HomePage() {
         <EmailSection />
         <WorkSection />
       </main>
-
       <footer>
         <Footer />
       </footer>

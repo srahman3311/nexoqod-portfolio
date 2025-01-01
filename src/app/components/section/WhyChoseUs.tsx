@@ -14,7 +14,7 @@ const WhyChoseUs = () => {
                             className='w-[50px] block h-[50px] object-cover'
                             width={5000}
                             height={5000}
-                            alt='Chose us Image'
+                            alt='Chose us'
                             src="/chose1.jpg"
                         />
                         <div className='text-nowrap'>
@@ -27,7 +27,7 @@ const WhyChoseUs = () => {
                             className='w-[50px] block h-[50px] object-cover'
                             width={5000}
                             height={5000}
-                            alt='Chose us Image'
+                            alt='Chose us'
                             src="/chose2.jpg"
                         />
                         <div className='text-nowrap'>
@@ -40,7 +40,7 @@ const WhyChoseUs = () => {
                             className='w-[50px] block h-[50px] object-cover'
                             width={5000}
                             height={5000}
-                            alt='Chose us Image'
+                            alt='Chose us'
                             src="/chose3.jpg"
                         />
                         <div className='text-nowrap'>
@@ -53,7 +53,7 @@ const WhyChoseUs = () => {
                             className='w-[50px] block h-[50px] object-cover'
                             width={5000}
                             height={5000}
-                            alt='Chose us Image'
+                            alt='Chose us'
                             src="/chose4.jpg"
                         />
                         <div className='text-nowrap'>
@@ -67,7 +67,7 @@ const WhyChoseUs = () => {
                     className='w-[70%] lg:w-full translate-x-0 lg:-translate-x-16'
                     width={5000}
                     height={5000}
-                    alt='Chose us Image'
+                    alt='Chose us'
                     src="/whyChoseUs.png"
                 />
             </div>
