@@ -21,7 +21,7 @@ const HomeBannerTitle = () => {
                     <Button background="#6065ff" contact content="Projects" />
                 </div>
                 <div>
-                    <Button background="purple" contact contactAddress="mailto:abdullahalmamun7021@gmail.com" content="Contact" />
+                    <Button background="purple" contact contactAddress="mailto:samsur.rahman3311@gmail.com" content="Contact" />
                 </div>
             </div>
         </div>
