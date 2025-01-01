@@ -29,13 +29,13 @@ const AboutWe = () => {
                     <strong className="text-[30px] font-medium inline-block rotate-90"> → </strong>
                     <p className="text-[4vw]  leading-normal md:leading-9 md:text-[3vw] lg:text-[1.9vw] lg:leading-[3vw] xl:leading-[2.5vw] " >
 
-                        We are Expert in full-stack software development, focusing on performance, scalability, and exceptional user experiences.
+                        We are experts in full-stack software development, focusing on performance, scalability, and exceptional user experiences.
 
                     </p>
                     <div className={`${showDetails ? " h-[250px]" : "h-0"} transition-all duration-700 relative overflow-hidden w-full`}>
 
                         <p className={`${showDetails ? "text-md" : "text-[50px]"} absolute top-0 left-0 w-full h-full mt-10 pointer-events-none transition-all duration-700`}> We specialize in crafting dynamic, high-performance web applications.
-                            With a deep understanding of .NET, MySQL, MongoDB, Express.js, React.js, and Node.js, Typescript
+                            With a deep understanding of .NET, MySQL, PostgreSQL MongoDB, Express.js, React.js, and Node.js and Typescript
                             we build seamless full-stack solutions that prioritize scalability, efficiency, and user experience.
                             our expertise spans from designing robust backend architectures to developing intuitive front-end interfaces,
                             ensuring every project is both functional and visually compelling.

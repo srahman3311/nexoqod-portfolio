@@ -20,7 +20,7 @@ const AboutOurServices = () => {
                     </div>
 
                     <p>
-                        Expert front-end developer skilled in creating reusable components with TypeScript, enhancing code efficiency, maintainability, and scalability. We help clients build robust, modular, and high-performing web applications.</p>
+                        Expert front-end developers skilled in creating reusable components with TypeScript, enhancing code efficiency, maintainability, and scalability. We help clients build robust, modular, and high-performing web applications.</p>
 
                     <div className='bg-slate-800 w-[1px] h-[200px] customBorder hidden lg:block'></div>
 
@@ -40,7 +40,7 @@ const AboutOurServices = () => {
                     </div>
 
                     <p>
-                        Experienced back-end web developer skilled in creating efficient, secure, and scalable server-side solutions. We specialize in optimizing performance and ensuring seamless integration with front-end systems to meet your business needs.</p>
+                        Experienced back-end web developers skilled in creating efficient, secure, and scalable server-side solutions. We specialize in optimizing performance and ensuring seamless integration with front-end systems to meet your business needs.</p>
 
                     <div className='bg-slate-800 w-[1px] h-[200px] customBorder hidden lg:block'></div>
                 </div>
@@ -57,7 +57,7 @@ const AboutOurServices = () => {
                         <h2 className="text-[4.5vw] md:text-[3vw] lg:text-[2.5vw]   first-letter:text-[#3D42FB]">Full-Stack</h2>
                     </div>
 
-                    <p>Expert full stack web developer skilled in front-end and back-end technologies. We build robust, scalable web applications tailored to client needs, delivering high-quality solutions on time.</p>
+                    <p>Expert full stack web developers skilled in front-end and back-end technologies. We build robust, scalable web applications tailored to client needs, delivering high-quality solutions on time.</p>
 
                 </div>
 
