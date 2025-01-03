@@ -54,4 +54,4 @@ export type ProjectType = {
     description: string;
     image: string;
     allImage?: string[]
-}[];
+};

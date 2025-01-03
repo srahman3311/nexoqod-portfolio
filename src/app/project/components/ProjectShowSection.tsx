@@ -1,7 +1,8 @@
 
 import { projectArray } from '@/app/data/projectData';
-import Image from 'next/image';
 import Link from 'next/link';
+import SingleProject from './SingleProject';
+import { ProjectType } from '@/app/type/ProjectType';
 
 
 const ProjectShowSection = () => {
@@ -10,42 +11,13 @@ const ProjectShowSection = () => {
 
 
     return (
-        <section className='bg-white py-24 px-0 md:px-12 lg:px-24 flex justify-center flex-col items-center'>
+        <section className='bg-white relative py-24 px-0 md:px-12 lg:px-24 flex justify-center flex-col items-center'>
 
             <div className='w-full grid controlLargeScreen grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3'>
 
-                {projectArray.map((singleProject) => {
-                    const { id, title, description, image } = singleProject
-                    return <div key={id} className='text-white shadow-xl'>
-                        <Link href={`/project/${title}`} className='relative h-[600px]'>
-
-                            <Image
-                                width={5000}
-                                height={5000}
-                                alt='Project Image'
-                                src={'/projectimage1.png'}
-                            />
-                            <div className='absolute top-0 left-0 w-full h-full z-30'>
-
-                                <div className=' relative min-w-full bgToptoBottom h-full p-4 flex flex-col items-start justify-between'>
-                                    <div>
-
-                                        <h2 className='text-2xl text-[#eee9d3] my-4'>{title}</h2>
-                                        <p className='text-sm my-2'>{description}</p>
-                                        <button className='uppercase text-sm ring-2 ring-white px-2 py-1 my-2'>
-                                            Case study
-                                        </button>
-                                    </div>
-                                    <div className='w-full'>
-                                        <div className='bg-white shadow-lg float-right rounded-full text-black text-center leading-[2.5rem] w-10 h-10'>
-                                            ➡
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </Link>
-                    </div>
+                {projectArray.map((singleProject: ProjectType) => {
+                    const { id, title, description, image, allImage } = singleProject
+                    return <SingleProject id={id} image={image} title={title} description={description} allImage={allImage} />
                 })}
 
             </div>

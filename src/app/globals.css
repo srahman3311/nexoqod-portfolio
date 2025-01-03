@@ -203,7 +203,7 @@ body {
   background: linear-gradient(to top, #000, transparent);
 }
 .bgToptoBottom {
-  background: linear-gradient(to bottom, #000, transparent 70%);
+  background: linear-gradient(to bottom, #000, transparent 80%);
 }
 .scroller_innerTest {
   display: flex;
