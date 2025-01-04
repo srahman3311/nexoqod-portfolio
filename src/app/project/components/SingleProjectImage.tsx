@@ -38,8 +38,8 @@ const SingleProjectImage: React.FC<SingleProjectType> = ({ singleImage }) => {
                     src={zoomImage}
                 />
 
-                {modal && <div className="fixed top-10 right-8  rounded-full bg-red-500 text-white p-4">
-                    <button>Close</button>
+                {modal && <div className="fixed top-10 right-8  rounded-full bg-white text-white p-4">
+                    <button>❌</button>
                 </div>}
             </div>
         </div>
