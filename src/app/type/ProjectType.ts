@@ -53,5 +53,6 @@ export type ProjectType = {
     title: string;
     description: string;
     image: string;
-    allImage?: string[]
+    allImage?: string[];
+    videoLink?: string;
 };

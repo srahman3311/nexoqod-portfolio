@@ -55,14 +55,13 @@ const VideoPlayer: React.FC<VideoType> = ({ videoSrc }) => {
   };
 
   return (
-    <div className="relative flex justify-center items-center min-w-full h-fit lg:h-screen bg-black">
-      <div className="relative min-w-full">
+    <div className="relative flex justify-center items-center min-w-full h-fit bg-black">
+      <div className="relative w-full">
         <video
-          width={"3600px"}
           ref={videoRef}
           onTimeUpdate={updateProgress}
           onEnded={handleVideoEnd}
-          className="min-w-full h-full object-cover"
+          className="min-w-[50%] h-full object-cover"
         >
           <source src={videoSrc} type="video/mp4" />
         </video>

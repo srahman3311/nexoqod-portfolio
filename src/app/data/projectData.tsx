@@ -50,7 +50,9 @@ export const projectArray: ProjectType[] = [
         title: "Hospital Management System",
         description: 'A comprehensive platform to streamline medical operations, manage patient records, and improve healthcare delivery.',
         image: "/hospital-management/admin_dashboard.png",
-        allImage: ["/hospital-management/account_payment.png", "/hospital-management/add_new_patient.png", "/hospital-management/admin_dashboard.png", "/hospital-management/login.png", "/hospital-management/patient_dashboard.png", "/hospital-management/attendance_dashboard.png", "/hospital-management/pharmacy_dashboard.png", "/hospital-management/queue_dashboard.png", "/hospital-management/transaction.png", "/hospital-management/welcome.png"]
+        allImage: ["/hospital-management/account_payment.png", "/hospital-management/add_new_patient.png", "/hospital-management/admin_dashboard.png", "/hospital-management/login.png", "/hospital-management/patient_dashboard.png", "/hospital-management/attendance_dashboard.png", "/hospital-management/pharmacy_dashboard.png", "/hospital-management/queue_dashboard.png", "/hospital-management/transaction.png", "/hospital-management/welcome.png"],
+        videoLink: "sample_video/industry.mp4"
+
 
     },
     {

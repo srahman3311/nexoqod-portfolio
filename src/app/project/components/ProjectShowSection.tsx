@@ -18,19 +18,24 @@ const ProjectShowSection = () => {
             <div className='w-full controlLargeScreen flex flex-col'>
 
                 {projectArray.map((singleProject: ProjectType) => {
-                    const { id, title, description, allImage } = singleProject
+                    const { id, title, description, allImage, videoLink } = singleProject
                     return (
-                        <div key={id} className='flex h-fit lg:min-h-screen border-b-4 justify-start items-start lg:items-start flex-col lg:flex-col gap-12 my-12' >
-                            <div>
-                                <h2 className='text-4xl lg:text-5xl my-2'>{title}</h2>
-                                <p className='text-lg'>{description}</p>
-
+                        <div key={id} className='flex h-fit lg:min-h-screen border-b-4 justify-center items-start lg:items-center flex-col lg:flex-col gap-12 my-12' >
+                            <div className='flex items-center justify-center flex-col'>
+                                <h2 className='text-4xl lg:text-5xl my-2 text-center'>{title}</h2>
+                                <div className='w-[60%]'>
+                                    <p className='text-lg text-center'>{description}</p>
+                                </div>
                             </div>
 
-                            <div>
+                            {
+                                videoLink && (
+                                    <div>
+                                        <VideoPlayer videoSrc={videoLink} />
+                                    </div>
+                                )
+                            }
 
-                                <VideoPlayer videoSrc={"/sample_video/industry.mp4"} />
-                            </div>
                             <div className=' pb-4 w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                                 {allImage?.map((singleImage, index) => {
                                     return <SingleProjectImage key={index} singleImage={singleImage} />
