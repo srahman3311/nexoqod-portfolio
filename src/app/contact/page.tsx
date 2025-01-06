@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import FirstAnimation from "../components/loadingUi/FirstAnimation"
 import Startup from "../components/loadingUi/Startup"
@@ -23,19 +22,29 @@ const page = () => {
                     <small className="text-[3vw] md:text-[2vw] lg:text-[1.4vw] text-neutral-400 block w-full lg:w-4/6 mt-4">Reach out to discuss your project, request a quote, or ask a question. We’d love to hear from you.</small>
                 </div>
 
-                <div className=" text-white  w-full h-fit lg:h-[120vh] flex gap-12 flex-col flex-grow mt-24">
-                    <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                {/* =================== pro =================== */}
+
+                <div className=" text-white  w-full flex gap-12 items-center flex-col mt-24">
+
+
+                    <Image
+                        className="w-[220px] h-[220px] lg:w-[15vw] lg:h-[15vw] text-center rounded-full object-cover"
+                        width={5000}
+                        height={5000}
+                        alt="Ceo Image"
+                        src={"/team-3.jpg"}
+                    />
+
+                    <div className="w-full h-full">
                         <div className="felx flex-col items-center justify-center w-full">
-                            <div className="h-[70%]">
 
+                            <h3 className="text-center text-4xl">Aminur Rahman</h3>
+                            <cite className="text-md text-center block">ceo of nexoqod</cite>
+                            <small className="block text-lg text-center my-8 lg:my-12 font-serif"><q>If you don't like the road you're walking, start paving another.</q></small>
 
-                                <h3 className="text-center text-4xl py-4">Aminur Rahman</h3>
-                                <cite className="text-md text-center block">ceo of nexoqod</cite>
-                                <small className="block text-lg text-center mt-6 font-serif"><q>If you don't like the road you're walking, start paving another.</q></small>
-                            </div>
-
-                            <div className="h-[30%] grid grid-cols-3 items-start justify-between ">
-                                <div className="min-h-full  w-full flex items-center justify-center bg-[#1877F2]">
+                            <div className="w-full lg:w-3/4 mx-auto flex items-center justify-center h-[8vw]">
+                                <div className="w-full h-full min-h-[60px] flex items-center justify-center bg-[#1877F2]">
 
                                     <div className="">
                                         <div className="hidden w-fit h-fit md:block">
@@ -56,7 +65,7 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="min-h-full w-full flex items-center justify-center text-black bg-[#ffffff]">
+                                <div className="w-full h-full min-h-[60px] flex items-center justify-center text-black bg-[#ffffff]">
 
                                     <div className="">
                                         <div className="hidden w-fit h-fit md:block">
@@ -74,11 +83,10 @@ const page = () => {
                                                 linkName="Twiter"
                                                 linkUrl="https://facebook.com"
                                             />
-                                            { }
                                         </div>
                                     </div>
                                 </div>
-                                <div className="bg-[#1A6FC5] min-h-full w-full flex items-center justify-center">
+                                <div className="bg-[#1A6FC5] w-full min-h-[60px] h-full flex items-center justify-center">
                                     <div className="">
                                         <div className="hidden w-fit h-fit md:block">
                                             <SocialLink
@@ -100,178 +108,112 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex  items-center justify-center  lg:items-end lg:justify-end">
-                            <div className="">
 
-                                <Image
-                                    className="max-h-[50vh] !w-[120%] lg:w-fit object-cover"
-                                    width={5000}
-                                    height={5000}
-                                    alt="Ceo Image"
-                                    src={"/team-3.jpg"}
-                                />
-                            </div>
-                        </div>
                     </div>
-                    <div className="grid text-white grid-cols-1 relative lg:grid-cols-2 gap-4 object-scale-down h-full w-full">
-                        <div className="flex items-center justify-start gap-4">
+                    {/* mfklgfgdfjgio */}
+                    <div className="grid text-white grid-cols-1 relative lg:grid-cols-2 gap-4 object-scale-down h-fit  w-full lg:w-3/4">
+                        <div className="flex items-center flex-col justify-center gap-4 border-slate-500  border-b-2 border-l-0 lg:border-r">
                             <Image
-                                className="h-[50vh] object-cover w-[50%]"
+                                className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
                                 src={"/team-2.jpg"}
                             />
-                            <div>
 
 
-                                <h2>Shamsur rahman Rafej</h2>
-                                <cite>Senior Partner</cite>
+                            <h2 className="text-2xl">Shamsur rahman Rafej</h2>
+                            <cite className="-mt-2">Senior Partner</cite>
 
-                                <div className="h-[50%] grid grid-cols-3  gap-0 lg:gap-4 items-center justify-between mt-12 ">
-                                    <div className="min-h-full w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
+                            <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
+                                <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsFacebook}
-                                                    iconSize={25}
-                                                    linkName="FaceBook"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsFacebook}
-                                                    iconSize={18}
-                                                    linkName="FaceBook"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsFacebook}
+                                                iconSize={18}
+                                                linkName="FaceBook"
+                                                linkUrl="https://facebook.com"
+                                            />
                                         </div>
                                     </div>
-                                    <div className="min-h-full w-full flex items-center justify-center text-black bg-[#ffffff] rounded-full p-2">
+                                </div>
+                                <div className="w-full flex items-center justify-center text-black bg-[#ffffff] rounded-full p-2">
 
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsTwitterX}
-                                                    iconSize={25}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://twiterx.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsTwitterX}
-                                                    iconSize={18}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                                { }
-                                            </div>
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsTwitterX}
+                                                iconSize={18}
+                                                linkName="Twiter"
+                                                linkUrl="https://twiterx.com"
+                                            />
                                         </div>
                                     </div>
-                                    <div className="bg-[#1A6FC5] min-h-full w-full flex items-center justify-center rounded-full p-2">
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsLinkedin}
-                                                    iconSize={25}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://twiterx.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsLinkedin}
-                                                    iconSize={18}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
+                                </div>
+                                <div className="bg-[#1A6FC5] w-full flex items-center justify-center rounded-full p-2">
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsLinkedin}
+                                                iconSize={18}
+                                                linkName="Twiter"
+                                                linkUrl="https://facebook.com"
+                                            />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div className="flex items-center justify-start gap-4">
+                        <div className="flex items-center flex-col justify-center gap-4 border-0 border-slate-500 lg:border-b-2 border-l-0 lg:border-l">
                             <Image
-                                className="h-[50vh] object-cover w-[50%]"
+                                className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
                                 src={"/team-1.jpg"}
                             />
-                            <div>
 
+                            <h2 className="text-2xl">Rayhan ahmed</h2>
+                            <cite className="-mt-2">Senior Partner</cite>
 
-                                <h2>Shamsur rahman Rafej</h2>
-                                <cite>Senior Partner</cite>
+                            <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
+                                <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
-                                <div className="h-[50%] grid grid-cols-3 gap-0 lg:gap-4 items-center justify-between mt-12 ">
-                                    <div className="min-h-full w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
-
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsFacebook}
-                                                    iconSize={25}
-                                                    linkName="FaceBook"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsFacebook}
-                                                    iconSize={18}
-                                                    linkName="FaceBook"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsFacebook}
+                                                iconSize={18}
+                                                linkName="FaceBook"
+                                                linkUrl="https://facebook.com"
+                                            />
                                         </div>
                                     </div>
-                                    <div className="min-h-full w-full flex items-center justify-center text-black bg-[#ffffff] rounded-full p-2">
+                                </div>
+                                <div className="w-full flex items-center justify-center text-black bg-[#ffffff] rounded-full p-2">
 
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsTwitterX}
-                                                    iconSize={25}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://twiterx.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsTwitterX}
-                                                    iconSize={18}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                                { }
-                                            </div>
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsTwitterX}
+                                                iconSize={18}
+                                                linkName="Twiter"
+                                                linkUrl="https://twiterx.com"
+                                            />
                                         </div>
                                     </div>
-                                    <div className="bg-[#1A6FC5] min-h-full w-full flex items-center justify-center rounded-full p-2">
-                                        <div className="">
-                                            <div className="hidden w-fit h-fit md:block">
-                                                <SocialLink
-                                                    icon={BsLinkedin}
-                                                    iconSize={25}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://twiterx.com"
-                                                />
-                                            </div>
-                                            <div className="block w-fit h-fit md:hidden">
-                                                <SocialLink
-                                                    icon={BsLinkedin}
-                                                    iconSize={18}
-                                                    linkName="Twiter"
-                                                    linkUrl="https://facebook.com"
-                                                />
-                                            </div>
+                                </div>
+                                <div className="bg-[#1A6FC5] w-full flex items-center justify-center rounded-full p-2">
+                                    <div className="">
+                                        <div className="w-fit h-fit">
+                                            <SocialLink
+                                                icon={BsLinkedin}
+                                                iconSize={18}
+                                                linkName="Twiter"
+                                                linkUrl="https://facebook.com"
+                                            />
                                         </div>
                                     </div>
                                 </div>
@@ -280,9 +222,6 @@ const page = () => {
                     </div>
                 </div>
             </main >
-            <footer>
-                <Footer />
-            </footer>
         </>
     )
 }

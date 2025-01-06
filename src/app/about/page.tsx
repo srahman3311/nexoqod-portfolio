@@ -22,10 +22,6 @@ const page = () => {
                 <AboutWe />
                 <AboutOurServices />
             </main>
-
-            <footer>
-                <Footer />
-            </footer>
         </>
     )
 }

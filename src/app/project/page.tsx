@@ -17,10 +17,6 @@ const page = () => {
                 <ProjectBanner />
                 <ProjectShowSection />
             </main>
-
-            <footer>
-                <Footer />
-            </footer>
         </>
     )
 }
