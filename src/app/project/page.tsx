@@ -1,4 +1,3 @@
-import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import FirstAnimation from "../components/loadingUi/FirstAnimation"
 import Startup from "../components/loadingUi/Startup"

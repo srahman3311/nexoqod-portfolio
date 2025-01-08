@@ -30,14 +30,12 @@ const page = () => {
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
-                                src={"/team-2.jpg"}
+                                src={"/man_placeholder.jpeg"}
                             />
 
-
-                            <h2 className="text-3xl">Shamsur rahman Rafej</h2>
-                            <cite className="-mt-2">Senior Partner</cite>
-                            <p className="text-slate-400 text-md text-center mt-4 xl:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet ex iusto?</p>
-
+                            <h2 className="text-3xl">Aminur Rahman</h2>
+                            <cite>CEO</cite>
+                            <cite>Phone/Whatsapp: +8801752008844</cite>
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
@@ -60,7 +58,7 @@ const page = () => {
                                                 icon={BsTwitterX}
                                                 iconSize={18}
                                                 linkName="Twiter"
-                                                linkUrl="https://twiterx.com"
+                                                linkUrl="https://facebook.com"
                                             />
                                         </div>
                                     </div>
@@ -85,12 +83,13 @@ const page = () => {
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
-                                src={"/team-1.jpg"}
+                                src={"/man_placeholder.jpeg"}
                             />
 
-                            <h2 className="text-3xl">Rayhan ahmed</h2>
-                            <cite className="-mt-2">Senior Partner</cite>
-                            <p className="text-slate-400 text-md text-center mt-4 xl:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet ex iusto?</p>
+
+                            <h2 className="text-3xl">Syed Ahmad Taofique</h2>
+                            <cite>CTO</cite>
+                            <cite>Phone/Whatsapp: +8801711930032</cite>
 
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
@@ -114,7 +113,7 @@ const page = () => {
                                                 icon={BsTwitterX}
                                                 iconSize={18}
                                                 linkName="Twiter"
-                                                linkUrl="https://twiterx.com"
+                                                linkUrl="https://facebook.com"
                                             />
                                         </div>
                                     </div>
@@ -142,14 +141,13 @@ const page = () => {
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
-                                src={"/team-2.jpg"}
+                                src={"/man_placeholder.jpeg"}
                             />
 
 
-                            <h2 className="text-3xl">Shamsur rahman Rafej</h2>
-                            <cite className="-mt-2">Senior Partner</cite>
-                            <p className="text-slate-400 text-md text-center mt-4 xl:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet ex iusto?</p>
-
+                            <h2 className="text-3xl">Shamsur rahman Rafez</h2>
+                            <cite className="-mt-2">Tech Lead</cite>
+                            <cite>Phone/Whatsapp: +8801717062884</cite>
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
@@ -172,7 +170,7 @@ const page = () => {
                                                 icon={BsTwitterX}
                                                 iconSize={18}
                                                 linkName="Twiter"
-                                                linkUrl="https://twiterx.com"
+                                                linkUrl="https://facebook.com"
                                             />
                                         </div>
                                     </div>
@@ -197,12 +195,12 @@ const page = () => {
                                 width={5000}
                                 height={5000}
                                 alt="Ceo Image"
-                                src={"/team-1.jpg"}
+                                src={"/man_placeholder.jpeg"}
                             />
 
-                            <h2 className="text-3xl">Rayhan ahmed</h2>
-                            <cite className="-mt-2">Senior Partner</cite>
-                            <p className="text-slate-400 text-md text-center mt-4 xl:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet ex iusto?</p>
+                            <h2 className="text-3xl">Mahfuz Ahmed</h2>
+                            <cite className="-mt-2">Tech Lead</cite>
+                            <cite>Phone/Whatsapp: +8801754146178</cite>
 
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
@@ -226,7 +224,7 @@ const page = () => {
                                                 icon={BsTwitterX}
                                                 iconSize={18}
                                                 linkName="Twiter"
-                                                linkUrl="https://twiterx.com"
+                                                linkUrl="https://facebook.com"
                                             />
                                         </div>
                                     </div>

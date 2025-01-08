@@ -47,40 +47,40 @@ export const projectList: ProjectDetailsType = [
 export const projectArray: ProjectType[] = [
     {
         id: 1,
-        title: "Hospital Management System",
-        description: 'A comprehensive platform to streamline medical operations, manage patient records, and improve healthcare delivery.',
-        image: "/hospital-management/admin_dashboard.png",
-        allImage: ["/hospital-management/account_payment.png", "/hospital-management/add_new_patient.png", "/hospital-management/admin_dashboard.png", "/hospital-management/login.png", "/hospital-management/patient_dashboard.png", "/hospital-management/attendance_dashboard.png", "/hospital-management/pharmacy_dashboard.png", "/hospital-management/queue_dashboard.png", "/hospital-management/transaction.png", "/hospital-management/welcome.png"],
-        videoLink: "sample_video/industry.mp4"
-
-
-    },
-    {
-        id: 2,
         title: "Multi-Tenant Beauty Salon System",
         description: 'Bookitu: A cutting-edge system with Stripe integration, customizable calendars, and dynamic email templates.',
         image: "/bookitu/calendar.png",
         allImage: ["/bookitu/add_new_discount.png", "/bookitu/add_stylist.png", "/bookitu/calendar.png", "/bookitu/make_payment.png", "/bookitu/package_list.png", "/bookitu/reports.png", "/bookitu/select_stylist_time.png", "/bookitu/select_treatment.png", "/bookitu/tenant_profile.png"]
     },
     {
+        id: 2,
+        title: "Hospital Management System",
+        description: 'A comprehensive platform to streamline medical operations, manage patient records, and improve healthcare delivery.',
+        image: "/hospital-management/admin_dashboard.png",
+        allImage: ["/hospital-management/account_payment.png", "/hospital-management/add_new_patient.png", "/hospital-management/admin_dashboard.png", "/hospital-management/login.png", "/hospital-management/patient_dashboard.png", "/hospital-management/attendance_dashboard.png", "/hospital-management/pharmacy_dashboard.png", "/hospital-management/queue_dashboard.png", "/hospital-management/transaction.png", "/hospital-management/welcome.png"],
+        // videoLink: "sample_video/industry.mp4"
+
+    },
+    {
         id: 3,
+        title: "ERP system",
+        description: 'A comprehensive platform to streamline medical operations, manage patient records, and improve healthcare delivery.',
+        image: "/atoz-binirman/expense.png",
+        allImage: ["/atoz-binirman/expense.png", "/atoz-binirman/income.png", "/atoz-binirman/job.png", "/atoz-binirman/log.png", "/atoz-binirman/report.png", "/atoz-binirman/subhead.png"]
+    },
+    {
+        id: 4,
         title: "Social Media Application",
         description: 'A platform that connects users with seamless interaction, dynamic feeds, and real-time notifications.',
         image: "/identishare/identishare.png",
         allImage: ["/identishare/identishare.png"]
     },
     {
-        id: 4,
+        id: 5,
         title: "File Conversion Site",
         description: 'A user-friendly web solution for converting files across multiple formats efficiently and securely.',
         image: "/file-conversion-site/file_conversion.png",
         allImage: ["/file-conversion-site/file_conversion.png"]
     },
-    {
-        id: 5,
-        title: "ERP system",
-        description: 'A comprehensive platform to streamline medical operations, manage patient records, and improve healthcare delivery.',
-        image: "/atoz-binirman/expense.png",
-        allImage: ["/atoz-binirman/expense.png", "/atoz-binirman/income.png", "/atoz-binirman/job.png", "/atoz-binirman/log.png", "/atoz-binirman/report.png", "/atoz-binirman/subhead.png"]
-    }
+    
 ]

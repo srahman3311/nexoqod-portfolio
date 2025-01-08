@@ -48,11 +48,11 @@ const ProjectShowSection = () => {
 
             </div>
 
-            <div className="my-12 shadow-lg">
+            {/* <div className="my-12 shadow-lg">
                 <Link href={"/project"}>
                     <button className="text-[18px]  hover:bg-white hover:text-black transition-all hover:ring-black lg:text-xl font-bold ring-4 ring-[#039084] rounded-lg p-2 ring-offset-4 hover:text-[15px]">See More Projects</button>
                 </Link>
-            </div>
+            </div> */}
         </section>
     )
 }
