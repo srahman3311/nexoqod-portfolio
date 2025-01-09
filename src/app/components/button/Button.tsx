@@ -36,6 +36,7 @@ const Button: React.FC<IPorps> = ({
     const linkNameChelck = (linkname: string | undefined) => {
         if (linkname === "Contact") return "Get in Touch";
         if (linkname === "Projects") return "Discover Our Work";
+        if (linkname === "Project") return "See More Project";
 
         return linkname;
 

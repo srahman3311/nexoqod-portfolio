@@ -7,6 +7,7 @@ import Image from "next/image";
 
 import gsap from "gsap";
 import { projectList } from "@/app/data/projectData";
+import Button from "../button/Button";
 
 
 const WorkSection = () => {
@@ -141,7 +142,7 @@ const WorkSection = () => {
 
                     const { PCategory, pLink, pName, pImage } = ele
 
-                    return (<Link key={pName} href={pLink} onMouseEnter={() => handleMouseEnter(pName)}
+                    return (<Link scroll={true} key={pName} href={pLink} onMouseEnter={() => handleMouseEnter(pName)}
                         className="flex testClass group items-center justify-between px-0 lg:px-6 py-12 md:px-12 md:py-16 cursor-pointer hover:bg-neutral-50 hover:text-black transition-all border-b hover:px-8">
                         <h2 className="hidden md:block text-3xl md:text-4xl lg:text-5xl text-neutral-700 font-bold group-hover:animate-pulse transition-all">{pName}</h2>
                         <h3 className="hidden md:block text-sm md:text-lg">{PCategory}</h3>
@@ -165,6 +166,10 @@ const WorkSection = () => {
                     </Link>)
                 })}
 
+            </div>
+
+            <div className="my-12 flex items-center justify-center">
+                <Button content="Project" />
             </div>
         </div>
     )

@@ -55,4 +55,5 @@ export type ProjectType = {
     image: string;
     allImage?: string[];
     videoLink?: string;
+    scrollIdLink?: string;
 };

@@ -21,6 +21,15 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  scroll-snap-type: x mandatory;
+}
+/* .scrollStart {
+  scroll-snap-align: start;
+  scroll-snap-type: x mandatory;
+} */
 
 html,
 body {
