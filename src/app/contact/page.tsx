@@ -23,6 +23,29 @@ const page = () => {
                 </div>
 
                 <div className=" text-white  w-full flex gap-16  items-center flex-col mt-32">
+                    <div className="mb-12">
+
+
+                        <div className="flex items-center flex-col gap-4">
+                            <Image
+                                className="w-32 h-24 rounded-full"
+                                width={5000}
+                                height={5000}
+                                alt="logo-image"
+                                src={"/nexoqod_logo.png"}
+                            />
+                            <h3 className='-mt-2 text-center mb-0  w-fit text-[8vw] leading-[10vw] md:text-[3vw] md:leading-[5.2vw] lg:text-[3.2vw] lg:leading-[4.5vw] font-bold text-slate-50' >
+                                NEXOQOD IT
+                            </h3>
+                        </div>
+                        <div className=" w-full flex  my-1 lg:my-2 flex-col items-center justify-center">
+                            <address>House: 5, Apartment 5B</address>
+                            <address>Road 17, Block D, Banani</address>
+                            <address>Dhaka, Bangladesh</address>
+                            <address>Phone: +8801973002528</address>
+                        </div>
+                    </div>
+
                     <div className="grid text-white grid-cols-1  relative lg:grid-cols-2 gap-12 object-scale-down h-fit  w-full lg:w-3/4">
                         <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-2 border-slate-500  border-b-2 border-l-0 lg:border-r">
                             <Image
