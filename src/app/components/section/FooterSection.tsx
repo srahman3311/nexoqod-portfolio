@@ -11,7 +11,7 @@ const FooterSection = () => {
             <div className="mb-12">
 
 
-                <div className="flex items-center flex-col md:flex-row gap-0 lg:gap-6 ">
+                <div className="flex items-center flex-col gap-0 ">
                     <Image
                         className="w-32 h-24 rounded-full"
                         width={5000}
@@ -20,12 +20,12 @@ const FooterSection = () => {
                         src={"/nexoqod_logo.png"}
                     />
 
-                    <h3 className='text-center mb-0  w-fit text-[8vw] leading-[10vw] md:text-[3vw] md:leading-[5.2vw] lg:text-[3.2vw] lg:leading-[4.5vw] font-bold text-slate-50' >
+                    <h3 className='-mt-2 text-center mb-0  w-fit text-[8vw] leading-[10vw] md:text-[3vw] md:leading-[5.2vw] lg:text-[3.2vw] lg:leading-[4.5vw] font-bold text-slate-50' >
                         NEXOQOD IT
                     </h3>
 
                 </div>
-                <div className=" w-full flex flex-col items-center justify-center">
+                <div className=" w-full flex  my-1 lg:my-2 flex-col items-center justify-center">
                     <address>House: 5/5th floor</address>
                     <address>block-D, Banani</address>
                     <address>Dhaka,Bangladesh</address>

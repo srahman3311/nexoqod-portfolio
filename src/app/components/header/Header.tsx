@@ -8,7 +8,7 @@ import Logo from "./Logo"
 const Header = () => {
 
     return (
-        <div className="w-full h-full overflow-hidden">
+        <div className="w-full h-full overflow-hidden px-4">
             <div className="w-full items-center flex justify-between text-white">
                 <Logo />
                 <nav>
