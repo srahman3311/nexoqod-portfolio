@@ -201,9 +201,8 @@ const page = () => {
                                 src={"/man_placeholder.jpeg"}
                             />
 
-                            <h2 className="text-3xl mt-2">Mahfuz Ahmed</h2>
+                            <h2 className="text-3xl mt-2">Mirza Amirul Islam</h2>
                             <cite className="mb-4">Tech Lead</cite>
-
                             <cite>Email: mahfuz@nexoqod.com</cite>
                             <cite>Phone/Whatsapp: +8801754146178</cite>
 

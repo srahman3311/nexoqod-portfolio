@@ -11,7 +11,7 @@ const FooterSection = () => {
             <div className="mb-12">
 
 
-                <div className="flex items-center flex-col gap-0 ">
+                <div className="flex items-center flex-col gap-4">
                     <Image
                         className="w-32 h-24 rounded-full"
                         width={5000}
@@ -19,26 +19,17 @@ const FooterSection = () => {
                         alt="logo-image"
                         src={"/nexoqod_logo.png"}
                     />
-
                     <h3 className='-mt-2 text-center mb-0  w-fit text-[8vw] leading-[10vw] md:text-[3vw] md:leading-[5.2vw] lg:text-[3.2vw] lg:leading-[4.5vw] font-bold text-slate-50' >
                         NEXOQOD IT
                     </h3>
-
                 </div>
                 <div className=" w-full flex  my-1 lg:my-2 flex-col items-center justify-center">
-                    <address>House: 5/5th floor</address>
-                    <address>block-D, Banani</address>
-                    <address>Dhaka,Bangladesh</address>
-
+                    <address>House: 5, Apartment 5B</address>
+                    <address>Road 17, Block D, Banani</address>
+                    <address>Dhaka, Bangladesh</address>
+                    <address>Phone: +8801973002528</address>
                 </div>
-                {/* <div className=" w-full flex flex-col items-center justify-center">
-                    <cite>House: 5/5th floor</cite><br />
-                    <cite>block-D, Banani</cite><br />
-                    <cite>Dhaka,Bangladesh</cite>
-
-                </div> */}
             </div>
-
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 ">
                 <div className="w-full flex items-center p-0 lg:p-4">
                     <div>
@@ -187,7 +178,7 @@ const FooterSection = () => {
                 </div>
                 <div className="w-full flex items-center p-0 lg:p-4">
                     <div>
-                        <h2 className="text-[5vw] lg:text-[2.5vw] text-slate-300 font-semibold">Mahfuz Ahmed</h2>
+                        <h2 className="text-[5vw] lg:text-[2.5vw] text-slate-300 font-semibold">Mirza Amirul Islam</h2>
                         <cite className="">Tech Lead</cite><br /><br />
                         <cite>Email: mahfuz@nexoqod.com</cite><br />
                         <cite>Phone/Whatsapp: +8801754146178</cite><br />
