@@ -19,9 +19,9 @@ const HomeBannerTitle = () => {
 
             <div className='mt-8 flex justify-between gap-2 w-fit'>
                 <div className='p-2 border rounded-2xl'>
-                <Link href={"/project"}>
-                    <button className="text-[18px]  hover:bg-white hover:text-black transition-all hover:ring-green-500 lg:text-xl font-bold ring-4 ring-red-500 rounded-lg p-4 ring-offset-4">Discover our works</button>
-                </Link>
+                    <Link href={"/project"}>
+                        <button className="text-[18px]  hover:bg-white hover:text-black transition-all hover:ring-green-500 lg:text-xl font-bold ring-4 ring-red-500 rounded-lg p-4 ring-offset-4">Discover our works</button>
+                    </Link>
                 </div>
                 <div>
                     <Button background="purple" contact contactAddress="mailto:samsur.rahman3311@gmail.com" content="Contact" />

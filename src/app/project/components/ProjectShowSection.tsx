@@ -47,10 +47,6 @@ const ProjectShowSection = () => {
                 })}
 
             </div>
-
-            <div id={"test"} className='p-24'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere doloremque cumque odio cupiditate eum modi tempore exercitationem explicabo laudantium officiis debitis unde labore impedit sed dolore quasi quas dolorem reiciendis magni, neque corporis. Eius in eveniet ex dicta perspiciatis provident veritatis neque totam dolorem earum quo corporis, ducimus temporibus eum facere quibusdam expedita? In inventore omnis quasi at ab? Deserunt, ab dolorum! Officia voluptas sed quos quaerat dolorem iure, dolores libero ipsum quibusdam repudiandae exercitationem odit nulla, nihil est eius enim maxime minima dolorum neque id quo velit! Qui repudiandae earum eum doloremque aliquid quos incidunt nobis eveniet totam veniam a odit cupiditate ullam, voluptatibus amet soluta. Doloribus hic ipsum error dolores veritatis deserunt ipsam pariatur, possimus, nobis ab officia sed itaque suscipit. Ad quos, nulla dolores incidunt explicabo nesciunt aspernatur reprehenderit. Quod, officiis veniam! Corrupti quis adipisci officia cupiditate quisquam eius nisi error tempore perspiciatis modi quos, doloribus vel id voluptate dignissimos cum praesentium a aut doloremque perferendis ullam nostrum! In ad perspiciatis architecto suscipit, minus cumque, exercitationem eum iste quae veniam magnam facilis sit provident repellendus ipsum blanditiis hic maxime sint similique debitis possimus officiis? Nemo culpa quia itaque rem, distinctio maxime voluptatibus explicabo necessitatibus odit, sint ea cum adipisci blanditiis, laudantium voluptates laboriosam. Culpa sapiente, adipisci dolorum quos hic ea mollitia odit modi dolorem molestiae? Deleniti vel doloremque placeat. Nemo minima expedita praesentium facilis ipsa corporis excepturi! Minus labore adipisci sit ipsam fugiat, repellat tempora ipsa quibusdam consequuntur, ratione nisi illum modi. Sed obcaecati reprehenderit animi alias beatae dolore ea non, debitis excepturi, fugit dolores optio reiciendis!
-            </div>
         </div >
     )
 }

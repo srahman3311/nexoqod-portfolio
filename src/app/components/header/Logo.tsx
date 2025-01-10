@@ -3,8 +3,8 @@
 import { useRef } from "react"
 import Link from "next/link"
 
-import { BsCCircle } from "react-icons/bs"
 import { handleMouseMove, handleMouseOut } from "../button/buttonEffect"
+import Image from "next/image"
 
 
 const Logo = () => {
@@ -20,19 +20,27 @@ const Logo = () => {
             className="p-4 group flex items-center gap-2 w-fit 
                        cursor-pointer rounded-md h-fit" >
 
-            <div className="group-hover:animate-spin">
-                <BsCCircle />
+
+            <div className="">
+                <Image
+                    className="max-w-28 max-h-24 rounded-full"
+                    width={5000}
+                    height={5000}
+                    alt="logo-image"
+                    src={'/nexoqod_logo.png'}
+                />
+
             </div>
 
-            <div className="relative w-[130px] md:w-[15vw] lg:w-[8.5vw] group h-8 overflow-hidden p-2" >
+            {/* <div className="relative w-[130px] md:w-[15vw] lg:w-[8.5vw] group h-8 overflow-hidden p-2" >
                 <Link ref={textRef} href={"/"}
                     className="text-nowrap lg:text-[1.15vw] font-semibold 
                         absolute transition-all duration-300 delay-75 
-                        group-hover:left-[-68px] top-[3px] left-0" >
+                        group-hover:left-[-28px] top-[3px] left-0" >
 
                     NEXOQOD IT
                 </Link>
-            </div>
+            </div> */}
         </div>
 
 

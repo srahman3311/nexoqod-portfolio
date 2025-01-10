@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <div className="w-full h-full overflow-hidden">
-            <div className="w-full p-2 py-8 lg:p-4 flex justify-between text-white">
+            <div className="w-full items-center flex justify-between text-white">
                 <Logo />
                 <nav>
                     <menu className="relative">

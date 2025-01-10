@@ -24,7 +24,7 @@ const page = () => {
 
                 <div className=" text-white  w-full flex gap-16  items-center flex-col mt-32">
                     <div className="grid text-white grid-cols-1  relative lg:grid-cols-2 gap-12 object-scale-down h-fit  w-full lg:w-3/4">
-                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-4 border-slate-500  border-b-2 border-l-0 lg:border-r">
+                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-2 border-slate-500  border-b-2 border-l-0 lg:border-r">
                             <Image
                                 className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
@@ -33,8 +33,9 @@ const page = () => {
                                 src={"/man_placeholder.jpeg"}
                             />
 
-                            <h2 className="text-3xl">Aminur Rahman</h2>
-                            <cite>CEO</cite>
+                            <h2 className="text-3xl mt-2">Aminur Rahman</h2>
+                            <cite className="mb-4">CEO</cite>
+                            <cite>Email: aminur@nexoqod.com</cite>
                             <cite>Phone/Whatsapp: +8801752008844</cite>
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
@@ -77,7 +78,7 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-4 border-0 border-slate-500 lg:border-b-2 border-l-0 lg:border-l">
+                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-2 border-0 border-slate-500 lg:border-b-2 border-l-0 lg:border-l">
                             <Image
                                 className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
@@ -88,7 +89,8 @@ const page = () => {
 
 
                             <h2 className="text-3xl">Syed Ahmad Taofique</h2>
-                            <cite>CTO</cite>
+                            <cite className="mb-4">CTO</cite>
+                            <cite>Email: arif@nexoqod.com</cite>
                             <cite>Phone/Whatsapp: +8801711930032</cite>
 
                             <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
@@ -135,7 +137,7 @@ const page = () => {
                     </div>
 
                     <div className="grid text-white grid-cols-1 relative lg:grid-cols-2 gap-12 object-scale-down h-fit  w-full lg:w-3/4">
-                        <div className="flex p-4 lg:p-6 items-center bg-black hover:bg-neutral-700  flex-col justify-center gap-4 border-slate-500  border-b-2 border-l-0 lg:border-r">
+                        <div className="flex p-4 lg:p-6 items-center bg-black hover:bg-neutral-700  flex-col justify-center gap-3 border-slate-500  border-b-2 border-l-0 lg:border-r">
                             <Image
                                 className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
@@ -145,10 +147,11 @@ const page = () => {
                             />
 
 
-                            <h2 className="text-3xl">Shamsur rahman Rafez</h2>
-                            <cite className="-mt-2">Tech Lead</cite>
+                            <h2 className="mt-2 text-3xl">Shamsur rahman Rafez</h2>
+                            <cite className="mb-4">Tech Lead</cite>
+                            <cite>Email: rafez@nexoqod.com</cite>
                             <cite>Phone/Whatsapp: +8801717062884</cite>
-                            <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
+                            <div className="h-[50%] grid grid-cols-3 gap-2 items-center justify-between my-4">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
                                     <div className="">
@@ -189,7 +192,7 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-4 border-0 border-slate-500 lg:border-b-2 border-l-0 lg:border-l">
+                        <div className="flex p-4 lg:p-6 hover:bg-neutral-700  items-center flex-col justify-center gap-2 border-0 border-slate-500 lg:border-b-2 border-l-0 lg:border-l">
                             <Image
                                 className="w-[170px] h-[170px] lg:w-[12vw] lg:h-[12vw] rounded-full"
                                 width={5000}
@@ -198,11 +201,13 @@ const page = () => {
                                 src={"/man_placeholder.jpeg"}
                             />
 
-                            <h2 className="text-3xl">Mahfuz Ahmed</h2>
-                            <cite className="-mt-2">Tech Lead</cite>
+                            <h2 className="text-3xl mt-2">Mahfuz Ahmed</h2>
+                            <cite className="mb-4">Tech Lead</cite>
+
+                            <cite>Email: mahfuz@nexoqod.com</cite>
                             <cite>Phone/Whatsapp: +8801754146178</cite>
 
-                            <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-6">
+                            <div className="h-[50%] grid grid-cols-3 gap-4 items-center justify-between my-4">
                                 <div className="w-full flex items-center justify-center bg-[#1877F2] rounded-full p-2">
 
                                     <div className="">
