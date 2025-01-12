@@ -1,72 +1,29 @@
-import Image from "next/image"
-
 
 const WhatWeDo = () => {
     return (
         <section className="w-full bg-white py-24 flex flex-col items-center min-h-[80vh]">
-            <h2 className="text-[5.3vw] md:text-[2.9vw]  lg:text-[2.4vw] font-bold uppercase mt-6">What We Do</h2>
+            <h2 className="text-[5.3vw] md:text-[2.9vw]  lg:text-[2.4vw] font-bold uppercase my-6">What We Do</h2>
 
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center p-6 md:p-6 lg:p-16">
-                <div className="relative w-full  h-[300px] shadow-sm  xl:h-[18vw] text-white group border transition cursor-pointer overflow-hidden">
-                    <Image
-                        className="w-full h-full object-cover z-10 scale-110 group-hover:scale-100 duration-500 transition-all delay-150"
-                        src={"/customWeb.jpg"}
-                        alt="Cloud Image"
-                        width={5000}
-                        height={5000}
-                    />
+            <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 place-items-center p-6 md:p-6 lg:p-16">
 
-                    <div className="z-20 text-xl absolute top-0 left-0 w-full h-full transition group-hover:bg-transparent flex items-end">
-                        <div className="backdrop-blur-sm p-6 bg-[#0006] min-w-full text-center md:text-start">
-                            Custom Software Development
-                        </div>
-                    </div>
+                <div style={{ backgroundImage: "radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% )" }} className="w-full rounded-xl shadow-sm hover:shadow-2xl transition-all text-white border cursor-pointer px-6 py-12 text-center">
+                    Custom Software Development
+
+                </div>
+                <div style={{ backgroundImage: "radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% )" }} className="w-full rounded-xl shadow-sm hover:shadow-2xl transition-all text-white border cursor-pointer px-6 py-12 text-center">
+                    Scalable Multi-Tenant Systems
+
+                </div>
+                <div style={{ backgroundImage: "linear-gradient( 89.7deg,  rgba(242,150,150,1) 0.3%, rgba(242,150,150,1) 0.3%, rgba(255,226,173,1) 89.8%)" }} className="w-full rounded-xl shadow-sm hover:shadow-2xl transition-all text-white border cursor-pointer px-6 py-12 text-center">
+                    Feature-Rich Web and Mobile Apps
+
+                </div>
+                <div style={{ backgroundImage: "linear-gradient( 109.6deg,  rgba(9,9,121,1) 11.2%, rgba(144,6,161,1) 53.7%, rgba(0,212,255,1) 100.2% )" }} className="w-full rounded-xl shadow-sm hover:shadow-2xl transition-all text-white border cursor-pointer px-6 py-12 text-center">
+                    High-Performance Cloud Solutions
                 </div>
 
-                <div className="relative w-full h-[300px] shadow-sm  xl:h-[18vw] text-white group border transition cursor-pointer overflow-hidden">
-                    <Image
-                        className="w-full h-full object-cover scale-110 group-hover:scale-100 duration-500 transition-all delay-150 z-10"
-                        src={"/multiTanent.jpg"}
-                        alt="Cloud Image"
-                        width={5000}
-                        height={5000}
-                    />
-
-                    <div className="z-20 text-xl absolute top-0 left-0 w-full h-full transition duration-500 group-hover:bg-transparent flex items-end">
-                        <div className="backdrop-blur-sm p-6 bg-[#0006] min-w-full text-center md:text-start">
-                            Scalable Multi-Tenant Systems
-                        </div>
-                    </div>
-                </div>
-                <div className="relative w-full h-[300px] shadow-sm  xl:h-[18vw] text-white group border transition cursor-pointer overflow-hidden">
-                    <Image
-                        className="w-full h-full object-cover z-10  scale-110 group-hover:scale-100 transition-all duration-500 delay-150"
-                        src={"/mobileApp.jpg"}
-                        alt="Cloud Image"
-                        width={5000}
-                        height={5000}
-                    />
-
-                    <div className="z-20 text-xl absolute top-0 left-0 w-full h-full transition group-hover:bg-transparent flex items-end">
-                        <div className="backdrop-blur-sm p-6 bg-[#0006] min-w-full text-center md:text-start">
-                            Feature-Rich Web and Mobile Apps
-                        </div>
-                    </div>
-                </div>
-                <div className="relative w-full h-[300px] shadow-sm xl:h-[18vw] text-white group border transition cursor-pointer overflow-hidden ">
-                    <Image
-                        className="w-full h-full object-cover z-10 scale-110 group-hover:scale-100 transition-all duration-500 delay-150"
-                        src={"/cloudImage.png"}
-                        alt="Cloud Image"
-                        width={5000}
-                        height={5000}
-                    />
-
-                    <div className="z-20 text-xl absolute top-0 left-0 w-full h-full  transition group-hover:bg-transparent flex items-end">
-                        <div className="backdrop-blur-sm p-6 bg-[#0006] min-w-full text-center md:text-start">
-                            High-Performance Cloud Solutions
-                        </div>
-                    </div>
+                <div style={{ backgroundImage: "linear-gradient(150.4deg, rgba(75, 255, 237, 1) 11.7%, rgba(32, 42, 235, 1) 82.4%)" }} className="w-full rounded-xl shadow-sm hover:shadow-2xl transition-all text-white border cursor-pointer px-6 py-12 bg-[#0008] text-center">
+                    Custom Mobile App Development
                 </div>
             </div>
         </section>
